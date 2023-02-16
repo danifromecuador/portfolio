@@ -1,7 +1,93 @@
-* {
-  background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* { /*initial configuration*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
 }
 
-.greeting {
-  color: aqua;
+@media (min-width: 375px) {
+  body {
+    width: 375px;
+  }
 }
+
+@media (min-width: 768px) {
+  body {
+    width: 768px;
+  }
+}
+
+body {
+  margin: 0 auto;
+}
+
+.app-bar {
+  width: 100%;
+  height: 92px;
+}
+
+  .status-bar {
+    width: 100%;
+    height: 44px;
+  }
+
+  .toolbar {
+    width: 100%;
+    height: 48px;
+    padding: 0 24px 0 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+    .log-placeholder {
+      font-size: 20px;
+      font-weight: 600;
+      color: #28352F;
+    }
+
+    .hamburger-icon {
+      display: flex; /*this way the icon is centered*/
+    }
+
+.headline {  
+  color: #172B4D;
+  text-align: center;
+  background-image: url(images/backgrounds/header-illsutration-mobile.svg);
+  background-repeat: no-repeat;
+  padding: 64px 24px;
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  row-gap: 58px; 
+}
+
+  .primary h2 {
+    font-weight: 700;
+    font-size: 40px;
+  }
+
+  .i-am-a {
+    color: #36B37E;
+  }
+
+  .supporting-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  
+  .social-media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+  }
+
+  .action {
+    display: flex;
+    justify-content: center;
+  }
