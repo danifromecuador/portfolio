@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Inter, sans-serif;  
+  font-family: Inter, sans-serif;
 }
 
 @media (min-width: 375px) {
@@ -58,11 +58,11 @@ ul {
 }
 
 .log-placeholder:hover {
-  color: #EBF0EE;
+  color: #ebf0ee;
 }
 
 .log-placeholder:active {
-  color: #36B37E;
+  color: #36b37e;
 }
 
 .hamburger-icon {
@@ -81,7 +81,8 @@ ul {
   row-gap: 58px;
 }
 
-h1, .primary h2 {
+h1,
+.primary h2 {
   font-weight: 700;
   font-size: 40px;
 }
