@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Inter, sans-serif;
+  font-family: Inter, sans-serif;  
 }
 
 @media (min-width: 375px) {
@@ -21,6 +21,14 @@
 
 body {
   margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 .app-bar {
@@ -49,6 +57,14 @@ body {
   color: #28352f;
 }
 
+.log-placeholder:hover {
+  color: #EBF0EE;
+}
+
+.log-placeholder:active {
+  color: #36B37E;
+}
+
 .hamburger-icon {
   display: flex; /* this way the icon is centered */
 }
@@ -65,7 +81,7 @@ body {
   row-gap: 58px;
 }
 
-.primary h2 {
+h1, .primary h2 {
   font-weight: 700;
   font-size: 40px;
 }
