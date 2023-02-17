@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Inter, sans-serif;
+  /* border: 1px solid red; */
 }
 
 @media (min-width: 375px) {
@@ -31,18 +32,20 @@ ul {
   list-style: none;
 }
 
+button {
+  border: none;
+}
+
+/* app bar //////////////////////////// */
 .app-bar {
-  width: 100%;
   height: 92px;
 }
 
 .status-bar {
-  width: 100%;
   height: 44px;
 }
 
 .toolbar {
-  width: 100%;
   height: 48px;
   padding: 0 24px 0 24px;
   display: flex;
@@ -68,6 +71,8 @@ ul {
 .hamburger-icon {
   display: flex; /* this way the icon is centered */
 }
+
+/* headline /////////////////////////// */
 
 .headline {
   color: #172b4d;
@@ -107,4 +112,74 @@ h1,
 .action {
   display: flex;
   justify-content: center;
+}
+
+/* recent-works /////////////////////// */
+
+.recent-works {
+  padding: 24px;
+  text-align: center;
+}
+
+.text {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.card-work-row {
+  display: grid;  
+  row-gap: 24px;
+  padding: 82px 0;
+}
+
+.card {
+  height: 475px;
+  background-color: #D0D9D4;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border: 1px solid red;
+  border-radius: 8px;
+}
+
+.text-box {
+  height: 50%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.project-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3a4a42;
+}
+
+.tags {
+  display: flex;
+  column-gap: 8px;
+}
+
+.tag {
+  background-color: #EBF0EE;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #3a4a42;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.see-project {
+  background-color: #36B37F;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 12px;
+  border-radius: 4px;
 }
