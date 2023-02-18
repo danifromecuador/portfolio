@@ -65,12 +65,12 @@ button {
 }
 
 .log-placeholder:active {
-  color: #36b37e;  
+  color: #36b37e;
   background-color: #008552;
 }
 
 .log-placeholder:visited {
-  color: #008552
+  color: #008552;
 }
 
 .hamburger-icon {
