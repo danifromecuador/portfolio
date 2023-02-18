@@ -9,7 +9,9 @@ Welcome to my portfolio project
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
+  - [🛠 Built With](#built-with)  
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
 - [👥 Authors](#authors)
@@ -38,7 +40,9 @@ Welcome to my portfolio project
 </details>
 
 ### Key Features <a name="key-features"></a>
-- **This repository includes linters**
+- **This repository uses linters**
+- **This webpage was created using best coding practices**
+- **This project includes a MIT license**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -46,7 +50,7 @@ Welcome to my portfolio project
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://danifromecuador.github.io/portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
