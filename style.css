@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Inter, sans-serif;
+  /* border: 1px solid red; */
 }
 
 @media (min-width: 375px) {
@@ -126,13 +127,12 @@ h1,
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  padding-bottom: 40px;
 }
 
 .card-work-row {
   display: grid;
   row-gap: 24px;
-  padding: 20px 0;
+  padding: 30px 0;
 }
 
 .card {
@@ -192,7 +192,7 @@ h1,
 }
 
 .see-project:active {
-  color: #36b37e;
+  color: #ffffff;
 }
 
 /* about me /////////////////////////// */
@@ -251,7 +251,8 @@ h1,
 }
 
 .languages-title {
-  margin-top: -55px;
+  margin-top: -80px;
+  margin-bottom: 20px;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
