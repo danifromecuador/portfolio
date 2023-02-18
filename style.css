@@ -65,7 +65,12 @@ button {
 }
 
 .log-placeholder:active {
-  color: #36b37e;
+  color: #36b37e;  
+  background-color: #008552;
+}
+
+.log-placeholder:visited {
+  color: #008552
 }
 
 .hamburger-icon {
@@ -192,6 +197,7 @@ h1,
 
 .see-project:active {
   color: #fff;
+  background-color: #008552;
 }
 
 /* about me /////////////////////////// */
