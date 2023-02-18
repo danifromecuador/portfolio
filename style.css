@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Inter, sans-serif;
-  /* border: 1px solid red; */
 }
 
 @media (min-width: 375px) {
@@ -192,7 +191,7 @@ h1,
 }
 
 .see-project:active {
-  color: #ffffff;
+  color: #fff;
 }
 
 /* about me /////////////////////////// */
