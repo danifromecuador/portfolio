@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Inter, sans-serif;
-  border: 1px solid red;
 }
 
 @media (min-width: 375px) {
@@ -127,12 +126,13 @@ h1,
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
+  padding-bottom: 40px;
 }
 
 .card-work-row {
   display: grid;
   row-gap: 24px;
-  padding: 82px 0;
+  padding: 20px 0;
 }
 
 .card {
@@ -198,13 +198,13 @@ h1,
 /* about me /////////////////////////// */
 
 .about-me {
-  background-image: url(images/backgrounds/top.svg), url(images/backgrounds/bottom.svg);
-  background-repeat: no-repeat;
-  background-position: right top, left bottom;
   padding: 60px 12px;
 }
 
 .about-text {
+  background-image: url(images/backgrounds/top.svg), url(images/backgrounds/bottom.svg);
+  background-repeat: no-repeat;
+  background-position: right top, left bottom;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -230,21 +230,28 @@ h1,
 
 .about-cards {
   display: grid;
+  row-gap: 24px;
 }
 
 .card-works {
-  background-color: red;
+  height: 350px;
+  background-color: #ebf0ee;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
 }
 
 .img-icon {
-  /* width: 80px;
-  height: 80px; */
+  background-color: white;
+  padding: 20px;
+  border-radius: 50%;
 }
 
 .languages-title {
+  margin-top: -55px;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -252,9 +259,13 @@ h1,
 }
 
 .about-tags {
+  margin-top: -90px;
   display: flex;
   justify-content: center;
-  column-gap: 8px;
+  flex-wrap: wrap;
+  column-gap: 12px;
+  row-gap: 12px;
+
 }
 
 .about-tag {
@@ -262,4 +273,7 @@ h1,
   font-size: 12px;
   line-height: 16px;
   color: #36b37e;
+  background-color: white;
+  padding: 12px 12px;
+  border-radius: 8px;
 }
