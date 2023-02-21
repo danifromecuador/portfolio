@@ -363,3 +363,13 @@ label {
   line-height: 32px;
   color: #42526e;
 }
+
+/* desktop version //////////////////// */
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: red;
+    width: 768px;
+    height: auto;
+  }
+}
