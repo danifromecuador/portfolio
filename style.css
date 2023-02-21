@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Inter, sans-serif;
+
   /* border: 1px solid red; */
 }
 
@@ -304,7 +305,7 @@ h1,
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .form {
@@ -320,16 +321,19 @@ label {
   display: none;
 }
 
-#name, #email, #message {
+#name,
+#email,
+#message {
   width: 100%;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-
 }
-#name, #email {
+
+#name,
+#email {
   padding: 15px 16px;
-  border: 1px solid #D0D9D4;
+  border: 1px solid #d0d9d4;
   border-radius: 4px;
 }
 
@@ -340,7 +344,7 @@ label {
 }
 
 #message::placeholder {
-  color: #091E42;
+  color: #091e42;
 }
 
 #message::-webkit-scrollbar {
@@ -352,10 +356,10 @@ label {
   border: none;
 }
 
-.supporting-text {
+#supporting-text {
   padding: 17px 0 200px 0;
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  color: #42526E;
+  color: #42526e;
 }
