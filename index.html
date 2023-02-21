@@ -180,18 +180,15 @@
     <p class="contact-form-text">
       I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
     </p>
-    <form class="form" method="post" action="www.com">
+    <form class="form" method="post" action="https://formspree.io/f/xnqrekyo">
       <label for="name"></label>
-      <input type="text" id="name" name="name" required>
+      <input type="text" id="name" name="name" maxlength="30" placeholder="Full name" required>
 
       <label for="email"></label>
-      <input type="email" id="email" name="email" required>
-
-      <label for="subject"></label>
-      <input type="text" id="subject" name="subject">
+      <input type="email" id="email" name="email" placeholder="Email address" required>
 
       <label for="message"></label>
-      <textarea id="message" name="message" rows="5" required></textarea>
+      <textarea id="message" name="message" rows="5" maxlength="500" placeholder="Enter text here" required></textarea>
 
       <input type="submit" value="Get in touch">
     </form>
