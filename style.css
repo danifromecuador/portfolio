@@ -9,18 +9,6 @@
   /* border: 1px solid red; */
 }
 
-@media (min-width: 375px) {
-  body {
-    width: 375px;
-  }
-}
-
-@media (min-width: 768px) {
-  body {
-    width: 768px;
-  }
-}
-
 body {
   margin: 0 auto;
   text-align: center;
@@ -36,6 +24,10 @@ ul {
 
 button {
   border: none;
+}
+
+.toolbar-desktop {
+  display: none;
 }
 
 /* app bar //////////////////////////// */
@@ -86,6 +78,8 @@ button {
   text-align: center;
   background-image: url(images/backgrounds/header-illsutration-mobile.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding: 64px 24px;
   display: flex;
   flex-direction: column;
@@ -114,6 +108,7 @@ h1,
   justify-content: center;
   align-items: center;
   column-gap: 20px;
+  padding: 20px 0;
 }
 
 .action {
@@ -166,6 +161,7 @@ h1,
   font-size: 24px;
   line-height: 32px;
   color: #3a4a42;
+  padding: 0 16px;
 }
 
 .tags {
@@ -289,7 +285,7 @@ h1,
 
 .contact-form {
   width: 100%;
-  height: 880px;
+  height: 780px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -300,12 +296,15 @@ h1,
 }
 
 .contact-form-text {
+  margin: 0 auto;
   width: 90%;
   height: 40%;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
+  display: flex;
+  align-items: center;
 }
 
 .form {
@@ -321,17 +320,14 @@ label {
   display: none;
 }
 
-#name,
-#email,
-#message {
+.input-field {
   width: 100%;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
 }
 
-#name,
-#email {
+.single {
   padding: 15px 16px;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
@@ -362,4 +358,107 @@ label {
   font-size: 20px;
   line-height: 32px;
   color: #42526e;
+}
+
+/* desktop version //////////////////// */
+
+@media screen and (min-width: 768px) {
+  body {
+    width: 1440px;
+  }
+
+  /* headline /////////////////////////// */
+
+  .app-bar-and-headline-container {
+    background-image: url(images/backgrounds/desktop-header-llustration.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .toolbar {
+    display: none;
+  }
+
+  .toolbar-desktop {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+  }
+
+  .headline {
+    width: 920px;
+    background-image: none;
+    margin: 0 auto;
+  }
+
+  /* recent-works  /////////////////////// */
+
+  .recent-works .text {
+    padding: 100px 0 40px 0;
+  }
+
+  .indicator {
+    display: none;
+  }
+
+  .card-work-row {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 24px;
+    padding: 0 134px;
+  }
+
+  /* about me /////////////////////////// */
+
+  .about-me {
+    padding: 60px 134px;
+  }
+
+  .about-text {
+    padding: 0 122px;
+  }
+
+  .supporting-text-1 {
+    padding: 0 70px;
+  }
+
+  .about-cards {
+    padding-top: 50px;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+    column-gap: 24px;
+  }
+
+  .about-me .about-text {
+    padding-bottom: 50px;
+  }
+
+  /* CONTACT-FORM /////////////////////// */
+
+  .contact-form {
+    background-image: url(images/backgrounds/desktop-contact.svg);
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    padding: 150px 127px 0 127px;
+  }
+
+  .contact-form-text {
+    text-align: left;
+    padding: 0 20px;
+    height: 38%;
+    width: 45%;
+    font-size: 30px;
+  }
+
+  .form {
+    height: 50%;
+    width: 55%;
+    align-items: flex-start;
+  }
+
+  #supporting-text {
+    display: none;
+    padding: 0 20px;
+  }
 }
