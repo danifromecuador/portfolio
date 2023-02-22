@@ -321,17 +321,14 @@ label {
   display: none;
 }
 
-#name,
-#email,
-#message {
+.input-field {
   width: 100%;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
 }
 
-#name,
-#email {
+.single {
   padding: 15px 16px;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
