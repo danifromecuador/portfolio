@@ -392,6 +392,14 @@ label {
 
   /* recent-works  /////////////////////// */
 
+  .recent-works .text {
+    padding: 100px 0 40px 0;
+  }
+
+  .indicator {
+    display: none;
+  }
+
   .card-work-row {
     grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
     grid-template-rows: repeat(2, 1fr);
@@ -418,6 +426,10 @@ label {
     column-gap: 24px;
   }
 
+  .about-me .about-text {
+    padding-bottom: 50px;
+  }
+
   /* CONTACT-FORM /////////////////////// */
 
   .contact-form {
@@ -425,7 +437,12 @@ label {
     background-image: url(images/backgrounds/desktop-contact.svg);
   }
 
+  .contact-form-text {
+    padding: 0 40px;
+  }
+
   #supporting-text {
     display: none;
+    padding: 0 20px;
   }
 }
