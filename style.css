@@ -5,6 +5,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Inter, sans-serif;
+
+  /* border: 1px solid red; */
 }
 
 body {
@@ -283,7 +285,7 @@ h1,
 
 .contact-form {
   width: 100%;
-  height: 880px;
+  height: 780px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -294,7 +296,7 @@ h1,
 }
 
 .contact-form-text {
-  margin: auto;
+  margin: 0 auto;
   width: 90%;
   height: 40%;
   font-weight: 700;
@@ -422,6 +424,7 @@ label {
   }
 
   .about-cards {
+    padding-top: 50px;
     grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
     column-gap: 24px;
   }
@@ -433,12 +436,25 @@ label {
   /* CONTACT-FORM /////////////////////// */
 
   .contact-form {
-    flex-direction: row;
     background-image: url(images/backgrounds/desktop-contact.svg);
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    padding: 150px 127px 0 127px;
   }
 
   .contact-form-text {
-    padding: 0 40px;
+    text-align: left;
+    padding: 0 20px;
+    height: 38%;
+    width: 45%;
+    font-size: 30px;
+  }
+
+  .form {
+    height: 50%;
+    width: 55%;
+    align-items: flex-start;
   }
 
   #supporting-text {
