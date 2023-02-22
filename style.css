@@ -5,20 +5,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Inter, sans-serif;
-
-  /* border: 1px solid red; */
-}
-
-@media (min-width: 375px) {
-  body {
-    width: 375px;
-  }
-}
-
-@media (min-width: 768px) {
-  body {
-    width: 768px;
-  }
 }
 
 body {
@@ -36,6 +22,10 @@ ul {
 
 button {
   border: none;
+}
+
+.toolbar-desktop {
+  display: none;
 }
 
 /* app bar //////////////////////////// */
@@ -86,6 +76,8 @@ button {
   text-align: center;
   background-image: url(images/backgrounds/header-illsutration-mobile.svg);
   background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding: 64px 24px;
   display: flex;
   flex-direction: column;
@@ -114,6 +106,7 @@ h1,
   justify-content: center;
   align-items: center;
   column-gap: 20px;
+  padding: 20px 0;
 }
 
 .action {
@@ -166,6 +159,7 @@ h1,
   font-size: 24px;
   line-height: 32px;
   color: #3a4a42;
+  padding: 0 16px;
 }
 
 .tags {
@@ -300,12 +294,15 @@ h1,
 }
 
 .contact-form-text {
+  margin: auto;
   width: 90%;
   height: 40%;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
+  display: flex;
+  align-items: center;
 }
 
 .form {
@@ -365,8 +362,70 @@ label {
 
 @media screen and (min-width: 768px) {
   body {
-    background-color: red;
-    width: 768px;
-    height: auto;
+    width: 1440px;
+  }
+
+  /* headline /////////////////////////// */
+
+  .app-bar-and-headline-container {
+    background-image: url(images/backgrounds/desktop-header-llustration.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .toolbar {
+    display: none;
+  }
+
+  .toolbar-desktop {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+  }
+
+  .headline {
+    width: 920px;
+    background-image: none;
+    margin: 0 auto;
+  }
+
+  /* recent-works  /////////////////////// */
+
+  .card-work-row {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 24px;
+    padding: 0 134px;
+  }
+
+  /* about me /////////////////////////// */
+
+  .about-me {
+    padding: 60px 134px;
+  }
+
+  .about-text {
+    padding: 0 122px;
+  }
+
+  .supporting-text-1 {
+    padding: 0 70px;
+  }
+
+  .about-cards {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+    column-gap: 24px;
+  }
+
+  /* CONTACT-FORM /////////////////////// */
+
+  .contact-form {
+    flex-direction: row;
+    background-image: url(images/backgrounds/desktop-contact.svg);
+  }
+
+  #supporting-text {
+    display: none;
   }
 }
