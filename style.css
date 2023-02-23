@@ -363,3 +363,7 @@ label {
   line-height: 32px;
   color: #42526e;
 }
+
+.sm:hover {
+transform: scale(1.5);
+}
