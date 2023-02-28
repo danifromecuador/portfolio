@@ -320,10 +320,6 @@ h1,
   align-items: center;
 }
 
-label {
-  display: none;
-}
-
 .input-field {
   width: 100%;
   font-weight: 400;
