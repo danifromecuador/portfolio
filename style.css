@@ -9,6 +9,10 @@
   /* border: 1px solid red; */
 }
 
+label {
+  display: none;
+}
+
 body {
   margin: 0 auto;
   text-align: center;
