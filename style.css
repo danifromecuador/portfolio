@@ -59,7 +59,7 @@ button {
 }
 
 .log-placeholder:active {
-  color: #36b37e;
+  color: #1c5e43;
   background-color: #008552;
 }
 
@@ -94,7 +94,7 @@ h1,
 }
 
 .i-am-a {
-  color: #36b37e;
+  color: #1c5e43;
 }
 
 .supporting-text {
@@ -275,7 +275,7 @@ h1,
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
-  color: #36b37e;
+  color: #1c5e43;
   background-color: white;
   padding: 12px 12px;
   border-radius: 8px;
@@ -335,7 +335,7 @@ label {
 
 #message {
   padding: 12px;
-  border: 1px solid #36b37e;
+  border: 1px solid #1c5e43;
   border-radius: 4px;
 }
 
