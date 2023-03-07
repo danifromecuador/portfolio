@@ -8,13 +8,18 @@
   <link rel="stylesheet" href="style.css">
   <title>Dani's FullStack Web Developer Portfolio</title>
 </head>
-<body class="overflow">
-  <div class="mobile-menu hidden">
-    Portfolio
-    About
-    Contact
-  </div>
-  <section class="app-bar-and-headline-container">
+<body class="body">
+  <nav class="mobile-menu hidden">
+    <a class="close" href="#app-bar-and-headline-container">
+      <img src="images/icons/close.svg" alt="exit-to-main-page">
+    </a>
+    <ul class="toolbar-mobile-menu">
+      <li><a href="#recent-works"><h2>Portfolio</h2></a></li>
+      <li><a href="#about-me"><h2>About</h2></a></li>
+      <li><a href="#contact-form"><h2>Contact</h2></a></li>
+    </ul>
+  </nav>
+  <section class="app-bar-and-headline-container" id="app-bar-and-headline-container">
     <header class="app-bar">
       <div class="status-bar"></div>
       <div class="toolbar">
@@ -29,9 +34,9 @@
       </div>
       <nav>
         <ul class="toolbar-desktop">
-          <li><a href=""><h2>Portfolio</h2></a></li>
-          <li><a href=""><h2>About</h2></a></li>
-          <li><a href=""><h2>Contact</h2></a></li>
+          <li><a href="#recent-works"><h2>Portfolio</h2></a></li>
+          <li><a href="#about-me"><h2>About</h2></a></li>
+          <li><a href="#contact-form"><h2>Contact</h2></a></li>
         </ul>
       </nav>
     </header>
@@ -53,14 +58,13 @@
         <li class="sm"><a href="https://www.angellist.com/"><img src="images/icons/angellist.svg" alt="angellist icon"></a></li>
       </ul>
       <div class="action">
-        <!-- change the name -->
-        <img src="images/icons/disabled.svg" alt="disabled icon"> 
+        <img src="images/icons/Disabled.svg" alt="disabled icon"> 
       </div>
     </section>
   </section>
   
 
-   <section class="recent-works">
+   <section class="recent-works" id="recent-works">
     <h2 class="text">My Recent Works</h2>
     <img  class="indicator" src="images/icons/Indicator.svg" alt="indicator icon">
     <section class="card-work-row">
@@ -149,7 +153,7 @@
       </div>
     </section>    
   </section> 
-  <section class="about-me">
+  <section class="about-me" id="about-me">
     <div class="about-text">
       <h2 class="primary-text">About me</h2>
       <p class="supporting-text-1"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -193,7 +197,7 @@
 
   </section>
 
-  <section class="contact-form">
+  <section class="contact-form" id="contact-form">
     <p class="contact-form-text">
       I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
     </p>
