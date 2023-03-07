@@ -505,8 +505,4 @@ label {
     display: none;
     padding: 0 20px;
   }
-
-  .sm:hover {
-    transform: scale(1.5);
-  }
 }
