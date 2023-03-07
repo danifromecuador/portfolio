@@ -7,6 +7,17 @@ const toolbarMobileMenu = document.querySelector('.toolbar-mobile-menu');
 
 // see project ////////////////////////////////////////////
 const seeProject = document.querySelectorAll('.see-project');
+const projects = [
+  {
+    name: 'Project 1',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquid cupiditate vitae tempore temporibus quo, eum pariatur. Neque sed ab in et architecto? In cumque obcaecati temporibus incidunt. A assumenda explicabo perspiciatis soluta tempora facilis suscipit culpa quo, alias nesciunt omnis similique quisquam fuga consectetur error laboriosam! Quis, quos repellendus.',
+    image: ['./images/pop-up-image.svg', './images/snapshot-portfolio.svg'],
+    technologies: ['codekit', 'GitHub', 'JavaScript', 'Bootstrap', 'Codepen'],
+    live: 'https://vgonma.github.io/personalportfolio/',
+    github: 'https://github.com/Vgonma',
+  }
+];
 
 // hamburger icon /////////////////////////////////////////
 hamburger.addEventListener('click', () => {
