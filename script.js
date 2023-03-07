@@ -15,7 +15,7 @@ const projects = [
     image: ['./images/pop-up-image.svg', './images/snapshot-portfolio.svg'],
     technologies: ['codekit', 'GitHub', 'JavaScript', 'Bootstrap', 'Codepen'],
     live: 'https://vgonma.github.io/personalportfolio/',
-    github: 'https://github.com/Vgonma',
+    github: 'https://github.com/Vgonma'
   }
 ];
 
