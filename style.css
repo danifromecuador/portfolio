@@ -30,6 +30,26 @@ button {
   display: none;
 }
 
+/* JS DOM manipulation //////////////////////////////////// */
+
+.overflow {
+  overflow: hidden;
+}
+
+.mobile-menu {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  position: fixed;
+  inset: 0;
+  margin: auto;
+}
+
+.mobile-menu.hidden,
+.hamburger-icon.hidden {
+  display: none;
+}
+
 /* app bar //////////////////////////// */
 .app-bar {
   height: 92px;
