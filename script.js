@@ -35,7 +35,16 @@ toolbarMobileMenu.addEventListener('click', () => {
 });
 
 // see project ////////////////////////////////////////////
-// const seeProject = document.querySelectorAll('.see-project');
-// seeProject[0].addEventListener('click', () => {
-//   alert('See Project');
-// });
+const seeProject = document.querySelectorAll('.see-project');
+const popupWindow = document.querySelector('.popup-window');
+const popClose = document.querySelector('.pop-close');
+
+for (let i = 0; i < 6; i += 1) {
+  seeProject[i].addEventListener('click', () => {
+    popupWindow.classList.toggle('hidden');
+  });
+}
+
+popClose.addEventListener('click', () => {
+  popupWindow.classList.toggle('hidden');
+});
