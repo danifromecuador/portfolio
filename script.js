@@ -19,7 +19,7 @@ const seeProject = document.querySelectorAll('.see-project');
 // image: ['images/backgrounds/snapshoot-mobile.svg', 'images/backgrounds/snapshoot-desktop.svg'],
 //     technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
 //     live: 'https://danifromecuador.github.io/portfolio/',
-//     github: 'https://github.com/danifromecuador',
+//       github: 'https://github.com/danifromecuador',
 //   },
 // ];
 
