@@ -50,6 +50,6 @@ seeProject[0].addEventListener('click', () => {
   div.style.top = '50%';
   div.style.left = '50%';
   div.style.transform = 'translate(-50%, -50%)';
-  div.textContent = 'This is a new div!';
+  div.textContent = 'This another is a new div! Just checking';
   document.body.appendChild(div);
 });
