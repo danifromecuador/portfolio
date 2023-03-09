@@ -4,21 +4,17 @@ const mobileMenu = document.querySelector('.mobile-menu');
 const body = document.querySelector('.body');
 const close = document.querySelector('.close');
 const toolbarMobileMenu = document.querySelector('.toolbar-mobile-menu');
-// const projects = [
-//   {
-//     name: 'Project 1',
-//     description:
-//       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquid cupiditate
-//  vitae tempore temporibus quo, eum pariatur. Neque sed ab in et architecto? In cumque obcaec
-//  ati temporibus incidunt. A assumenda explicabo perspiciatis soluta tempora facilis suscipit
-//   culpa quo, alias nesciunt omnis similique quisquam fuga consectetur error laboriosam! Qui
-//   s, quos repellendus.',
-// image: ['images/backgrounds/snapshoot-mobile.svg', 'images/backgrounds/snapshoot-desktop.svg'],
-//     technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
-//     live: 'https://danifromecuador.github.io/portfolio/',
-//       github: 'https://github.com/danifromecuador',
-//   },
-// ];
+const projects = [
+  {
+    image: 'images/icons/pop-close.svg',
+    name: 'Project 1',
+    languages: ['Ruby on rails', 'css', 'JavaScript', 'html'],
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aliquid cupiditate vitae tempore temporibus quo, eum pariatur. Neque sed ab in et architecto? In cumque obcaecati temporibus incidunt. A assumenda explicabo perspiciatis soluta tempora facilis suscipit  culpa quo, alias nesciunt omnis similique quisquam fuga consectetur error laboriosam! Qui  s, quos repellendus.',
+    live: 'https://danifromecuador.github.io/portfolio/',
+    github: 'https://github.com/danifromecuador',
+  },
+];
+console.log(projects[0].name);
 hamburger.addEventListener('click', () => {
   mobileMenu.classList.toggle('hidden'); // shows the mobile menu
   body.classList.toggle('overflow');
@@ -39,21 +35,21 @@ const seeProject = document.querySelectorAll('.see-project');
 const melanie = document.querySelector('.melanie');
 const html = `<div class="popup-window">
 <div class="pop-image-and-close">
-  <img src="images/icons/pop-close.svg" alt="exit" class="pop-close hidden"></img>
+  <img src=${projects[0].image} alt="exit" class="pop-close hidden"></img>
 </div>
-<div class="pop-project-name">Keeping track of hundreds of components</div>
+<div class="pop-project-name">${projects[0].name}</div>
 <div class="pop-languages">
-  <h4 class="pop-languages-1">Ruby on rails</h4>
-  <h4 class="pop-languages-2">css</h4>
-  <h4 class="pop-languages-3">JavScript</h4>
+  <h4 class="pop-languages-1">${projects[0].languages[0]}</h4>
+  <h4 class="pop-languages-2">${projects[0].languages[1]}</h4>
+  <h4 class="pop-languages-3">${projects[0].languages[2]}</h4>
 </div>
-<p class="pop-lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+<p class="pop-lorem">${projects[0].description}</p>
 <div class="pop-see-live-and-source">
-  <a href="https://danifromecuador.github.io/portfolio/" class="pop-see-live">
+  <a href=${projects[0].live} class="pop-see-live">
     <h3 class="pop-see-live-text">See live</h3>
     <img src="images/icons/see-live.svg" alt="" class="pop-see-live-image">
   </a>
-  <a href="https://github.com/danifromecuador/portfolio" class="pop-see-source">
+  <a href=${projects[0].source} class="pop-see-source">
     <h3 class="pop-see-source-text">See Source</h3>
     <img src="images/icons/see-source.svg" alt="" class="pop-see-source-image">
   </a>
