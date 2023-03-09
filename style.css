@@ -37,9 +37,6 @@ button {
 /* JS DOM manipulation //////////////////////////////////// */
 
 /* hamburger icon ///////////////////////////////////////// */
-.overflow {
-  overflow: hidden;
-}
 
 .mobile-menu.hidden,
 .hamburger-icon.hidden {
@@ -81,6 +78,12 @@ button {
 }
 
 /* popUp window /////////////////////////////////////////// */
+
+.main.blur {
+  background-color: #c1c7d0;
+  filter: blur(100px);
+}
+
 .popup-window.hidden {
   display: none;
 }
@@ -89,8 +92,8 @@ button {
   border: 1px solid #dfe1e6;
   background-color: white;
   border-radius: 16px;
-  width: 100%;
-  height: 100vh;
+  width: 343px;
+  height: 836px;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -100,6 +103,7 @@ button {
   flex-direction: column;
   justify-content: space-between;
   row-gap: 12px;
+  z-index: 1;
 }
 
 .pop-image-and-close {
@@ -531,6 +535,11 @@ label {
     width: 1440px;
   }
 
+  .popup-window {
+    width: 920px;
+    height: 1083px;
+  }
+
   .pop-close-desk {
     display: block;
     background-color: #ebecf0;
@@ -550,14 +559,25 @@ label {
     display: none;
   }
 
+  .pop-project-name-desk {
+    width: 60%;
+  }
+
   .pop-project-name-and-live-and-source-desk {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
   }
 
   .pop-see-live-and-source-desk {
     display: flex;
     column-gap: 12px;
+  }
+
+  .pop-see-live-image,
+  .pop-see-source-image {
+    width: 20px;
+    height: 20px;
   }
 
   .pop-project-name,

@@ -120,15 +120,19 @@ for (let i = 0; i < 6; i += 1) {
   </div>
   </div>`;
   seeProject[i].addEventListener('click', () => {
+    const main = document.querySelector('.main');
     melanie.innerHTML = html;
+    main.classList.toggle('blur');
     const popClose = document.querySelector('.pop-close');
     const popupWindow = document.querySelector('.popup-window');
     popClose.addEventListener('click', () => {
       popupWindow.classList.toggle('hidden');
+      main.classList.toggle('blur');
     });
     const popCloseDesk = document.querySelector('.pop-close-desk');
     popCloseDesk.addEventListener('click', () => {
       popupWindow.classList.toggle('hidden');
+      main.classList.toggle('blur');
     });
   });
 }
