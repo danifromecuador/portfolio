@@ -122,7 +122,8 @@ button {
   cursor: pointer;
 }
 
-.pop-project-name {
+.pop-project-name,
+.pop-project-name-desk {
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
@@ -155,7 +156,8 @@ button {
   color: #344563;
 }
 
-.pop-see-live-and-source {
+.pop-see-live-and-source,
+.pop.pop-see-live-and-source-desk {
   display: flex;
   justify-content: space-between;
   column-gap: 12px;
@@ -509,12 +511,69 @@ label {
   color: #42526e;
 }
 
+.pop-close-desk {
+  cursor: pointer;
+  display: none;
+}
+
+.pop-project-name-and-live-and-source-desk {
+  display: none;
+}
+
+.pop-languages-desk {
+  display: none;
+}
+
 /* desktop version //////////////////// */
 
 @media screen and (min-width: 768px) {
   body {
     width: 1440px;
   }
+
+  .pop-close-desk {
+    display: block;
+    background-color: #ebecf0;
+    width: 40px;
+    height: 40px;
+    padding: 13px;
+    border-radius: 8px;
+    align-self: self-end;
+  }
+
+  .pop-image-and-close {
+    height: 616px;
+    background-image: url(images/backgrounds/snapshoot-desktop.svg);
+  }
+
+  .pop-close {
+    display: none;
+  }
+
+  .pop-project-name-and-live-and-source-desk {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .pop-see-live-and-source-desk {
+    display: flex;
+    column-gap: 12px;
+  }
+
+  .pop-project-name,
+  .pop-see-live-and-source.mobile {
+    display: none;
+  }
+
+  .pop-languages {
+    display: none;
+  }
+
+  .pop-languages-desk {
+    display: flex;
+    column-gap: 8px;
+  }
+
 
   /* headline /////////////////////////// */
 
