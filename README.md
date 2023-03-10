@@ -89,7 +89,9 @@ the repository.
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- I will set up the mobile version.
+- Modal/Pop up windows for the cards details.
+- Javascript to make page interactive.
+- Validate contact form and preserve data in the browser.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
