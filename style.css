@@ -93,7 +93,7 @@ button {
   background-color: white;
   border-radius: 16px;
   width: 343px;
-  height: 836px;
+  height: 100%;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -537,7 +537,7 @@ label {
 
   .popup-window {
     width: 920px;
-    height: 1083px;
+    height: 100%;
   }
 
   .pop-close-desk {
