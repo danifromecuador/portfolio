@@ -78,9 +78,16 @@ the repository.
 
 👤 **Dani Morillo**
 
-- GitHub: [@githubhandle](https://github.com/danifromecuador)
-- Twitter: [@twitterhandle](https://twitter.com/danifromecuador)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dani-mc-322a65256/)
+- GitHub: [@danifromecuador](https://github.com/danifromecuador)
+- Twitter: [@danifromecuador](https://twitter.com/danifromecuador)
+- LinkedIn: [danifromecuador](https://www.linkedin.com/in/danifromecuador/)
+
+Colaborators:  
+👤 **Ruth Abreu**
+
+- GitHub: [@Ruthmye](https://github.com/Ruthmy)
+- Twitter: [@rury_exe](https://twitter.com/rury_exe)
+- LinkedIn: [ruth-abreu](https://www.linkedin.com/in/ruth-abreu/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
