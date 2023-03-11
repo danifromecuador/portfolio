@@ -146,7 +146,7 @@ submit.addEventListener('click', (event) => {
   const emailValue = emailInput.value;
   if (emailValue !== emailValue.toLowerCase()) {
     event.preventDefault();
-    errorMessage.innerHTML = 'Please use only lowercase email addresses';
+    errorMessage.innerHTML = 'Please use only lowercase email addresses!';
     return false;
   }
   return true;

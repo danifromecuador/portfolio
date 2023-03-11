@@ -515,6 +515,13 @@ label {
   color: #42526e;
 }
 
+#error-message {
+  color: #172b4d;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 32px;
+}
+
 .pop-close-desk {
   cursor: pointer;
   display: none;
