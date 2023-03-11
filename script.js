@@ -153,20 +153,14 @@ submit.addEventListener('click', (event) => {
 });
 
 // PRESERVE DATA //////////////////////////////////////////////////////////////////////////////////
+const userInput = document.querySelectorAll('.userData');
+const form = document.querySelector('.form');
+let data = {};
 
-// Ni idea acá Dani pero sé que puedes, eres genial.
-
-document.addEventListener('DOMContentLoaded', () => {
-  // When the document loads, I acces the information from the localStorage to get
-  // the object with the user information
-  // If there is not info then instead of getting a null I changed with an empty object
-  const userFormData = JSON.parse(localStorage.getItem('userFormData')) || {};
-
-  // Once the object is retrieved, then I use its values to insert the them in the values
-  // If the object is empty then instead of undefined I force the result to be an empty
-  // string by using the OR operator
-  myForm.querySelector('input[type="text"]').value = userFormData?.name || '';
-  myForm.querySelector('input[type="email"]').value = userFormData?.email || '';
-  myForm.querySelector('textarea[name="message"]').value = userFormData?.message || '';
-});
+if (localStorage.getItem('userData')) {
+  data = JSON.parse(localStorage.getItem('userData'));
+  userInput.forEach((input) => {
+    input.value = data[input.name];
+  });
+}
 
