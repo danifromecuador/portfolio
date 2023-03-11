@@ -140,13 +140,14 @@ for (let i = 0; i < 6; i += 1) {
 
 // FORM VALIDATION ////////////////////////////////////////////////////////////////////////////////
 const submit = document.querySelector('#submit');
-const errorMessage = document.querySelector('#error-message')
+const errorMessage = document.querySelector('#error-message');
 submit.addEventListener('click', (event) => {
   const emailInput = document.querySelector('#email');
   const emailValue = emailInput.value;
   if (emailValue !== emailValue.toLowerCase()) {
     event.preventDefault();
-    errorMessage.innerHTML = "Please use only lowercase email addresses";
+    errorMessage.innerHTML = 'Please use only lowercase email addresses';
     return false;
   }
+  return true;
 });
