@@ -164,3 +164,10 @@ if (localStorage.getItem('userData')) {
   });
 }
 
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  userInput.forEach((input) => {
+    data[input.name] = input.value;
+  });
+  localStorage.setItem('userData', JSON.stringify(data));
+});
