@@ -151,3 +151,23 @@ submit.addEventListener('click', (event) => {
   }
   return true;
 });
+
+// PRESERVE DATA //////////////////////////////////////////////////////////////////////////////////
+const userInput = document.querySelectorAll('.dataEnter');
+
+let data = {
+};
+
+if (localStorage.getItem('userData')) {
+  data = JSON.parse(localStorage.getItem('userData'));
+  userInput.forEach((input) => {
+    input.value = data[input.name];
+  });
+}
+
+userInput.forEach((input) => {
+  input.addEventListener('input', () => {
+    data[input.name] = input.value;
+    localStorage.setItem('userData', JSON.stringify(data));
+  });
+});
