@@ -153,9 +153,10 @@ submit.addEventListener('click', (event) => {
 });
 
 // PRESERVE DATA //////////////////////////////////////////////////////////////////////////////////
-const userInput = document.querySelectorAll('.userData');
-const form = document.querySelector('.form');
-let data = {};
+const userInput = document.querySelectorAll('.dataEnter');
+
+let data = {
+};
 
 if (localStorage.getItem('userData')) {
   data = JSON.parse(localStorage.getItem('userData'));
@@ -164,10 +165,9 @@ if (localStorage.getItem('userData')) {
   });
 }
 
-form.addEventListener('submit', (event) => {
-  event.preventDefault();
-  userInput.forEach((input) => {
+userInput.forEach((input) => {
+  input.addEventListener('input', () => {
     data[input.name] = input.value;
+    localStorage.setItem('userData', JSON.stringify(data));
   });
-  localStorage.setItem('userData', JSON.stringify(data));
 });
