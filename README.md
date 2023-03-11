@@ -89,6 +89,12 @@ Colaborators:
 - Twitter: [@rury_exe](https://twitter.com/rury_exe)
 - LinkedIn: [ruth-abreu](https://www.linkedin.com/in/ruth-abreu/)
 
+👤 **Ali Bello Imoukhuede**
+
+- GitHub: [@githubhandle](https://github.com/devalibello)
+- Twitter: [@twitterhandle](https://twitter.com/i_am_aalee)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ali-bello-imoukhuede/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
