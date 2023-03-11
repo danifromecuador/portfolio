@@ -1,9 +1,26 @@
-// hamburger icon /////////////////////////////////////////
+// MENU MOBILE ////////////////////////////////////////////////////////////////////////////////////
 const hamburger = document.querySelector('.hamburger-icon');
 const mobileMenu = document.querySelector('.mobile-menu');
 const body = document.querySelector('.body');
 const close = document.querySelector('.close');
 const toolbarMobileMenu = document.querySelector('.toolbar-mobile-menu');
+
+hamburger.addEventListener('click', () => {
+  mobileMenu.classList.toggle('hidden'); // shows the mobile menu
+  body.classList.toggle('overflow');
+});
+
+close.addEventListener('click', () => {
+  mobileMenu.classList.toggle('hidden');
+  body.classList.toggle('overflow');
+});
+
+toolbarMobileMenu.addEventListener('click', () => {
+  mobileMenu.classList.toggle('hidden');
+  body.classList.toggle('overflow');
+});
+
+// MODAL WINDOW ///////////////////////////////////////////////////////////////////////////////////
 const projects = [
   {
     image: 'images/icons/pop-close.svg',
@@ -55,22 +72,6 @@ const projects = [
   },
 ];
 
-hamburger.addEventListener('click', () => {
-  mobileMenu.classList.toggle('hidden'); // shows the mobile menu
-  body.classList.toggle('overflow');
-});
-
-close.addEventListener('click', () => {
-  mobileMenu.classList.toggle('hidden');
-  body.classList.toggle('overflow');
-});
-
-toolbarMobileMenu.addEventListener('click', () => {
-  mobileMenu.classList.toggle('hidden');
-  body.classList.toggle('overflow');
-});
-
-// see project ////////////////////////////////////////////
 const seeProject = document.querySelectorAll('.see-project');
 const melanie = document.querySelector('.melanie');
 
@@ -137,8 +138,15 @@ for (let i = 0; i < 6; i += 1) {
   });
 }
 
-// FORM VALIDATION ////////////////////////////////////////
-
-
-
-
+// FORM VALIDATION ////////////////////////////////////////////////////////////////////////////////
+const submit = document.querySelector('#submit');
+const errorMessage = document.querySelector('#error-message')
+submit.addEventListener('click', (event) => {
+  const emailInput = document.querySelector('#email');
+  const emailValue = emailInput.value;
+  if (emailValue !== emailValue.toLowerCase()) {
+    event.preventDefault();
+    errorMessage.innerHTML = "Please use only lowercase email addresses";
+    return false;
+  }
+});
