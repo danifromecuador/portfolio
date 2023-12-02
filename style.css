@@ -12,7 +12,6 @@
 body {
   margin: 0 auto;
   text-align: center;
-  background-color: rgb(241, 241, 241);
 }
 
 a {
@@ -298,7 +297,7 @@ h1,
   display: flex;
   flex-direction: column;
   justify-content: end;
-  border: 1px solid #d0d9d4;
+  border: 5px solid #d0d9d4;
   border-radius: 8px;
 }
 
