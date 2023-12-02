@@ -303,7 +303,7 @@ h1,
 
 .img-book-a-concert {
   height: 50%;
-  background-image: url(../images/projects/book_a_concert.jpeg);
+  background-image: url(./images/projects/book_a_concert.jpeg);
   background-size: cover;
   border-radius: 8px;
   border-bottom: 1px solid black;
@@ -311,7 +311,7 @@ h1,
 
 .img-budget-tracker {
   height: 50%;
-  background-image: url(../images/projects/budget_tracker.png);
+  background-image: url(./images/projects/budget_tracker.png);
   background-size: cover;
   border-radius: 8px;
   border-bottom: 1px solid black;
@@ -319,7 +319,7 @@ h1,
 
 .img-recipes-app {
   height: 50%;
-  background-image: url(../images/projects/recipes.png);
+  background-image: url(./images/projects/recipes.png);
   background-size: cover;
   border-radius: 8px;
   border-bottom: 1px solid black;
@@ -327,7 +327,7 @@ h1,
 
 .img-dani-milo-movies {
   height: 50%;
-  background-image: url(../images/projects/movies.png);
+  background-image: url(./images/projects/movies.png);
   background-size: cover;
   border-radius: 8px;
   border-bottom: 1px solid black;
@@ -335,7 +335,7 @@ h1,
 
 .img-air-pollution {
   height: 50%;
-  background-image: url(../images/projects/air_pollution.png);
+  background-image: url(./images/projects/air_pollution.png);
   background-size: cover;
   border-radius: 8px;
   border-bottom: 1px solid black;
@@ -343,7 +343,7 @@ h1,
 
 .img-luxury-cars {
   height: 50%;
-  background-image: url(../images/projects/luxury_cars.png);
+  background-image: url(./images/projects/luxury_cars.png);
   background-size: cover;
   border-radius: 8px;
   border-bottom: 1px solid black;
