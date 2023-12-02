@@ -306,7 +306,7 @@ h1,
   background-image: url(images/projects/book_a_concert.jpeg);
   background-size: cover;
   border-radius: 8px;
-  border-bottom:  1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .img-budget-tracker {
@@ -314,7 +314,7 @@ h1,
   background-image: url(images/projects/budget_tracker.png);
   background-size: cover;
   border-radius: 8px;
-  border-bottom:  1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .img-recipes-app {
@@ -322,7 +322,7 @@ h1,
   background-image: url(images/projects/recipes.png);
   background-size: cover;
   border-radius: 8px;
-  border-bottom:  1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .img-dani-milo-movies {
@@ -330,7 +330,7 @@ h1,
   background-image: url(images/projects/movies.png);
   background-size: cover;
   border-radius: 8px;
-  border-bottom:  1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .img-air-pollution {
@@ -338,7 +338,7 @@ h1,
   background-image: url(images/projects/air_pollution.png);
   background-size: cover;
   border-radius: 8px;
-  border-bottom:  1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .img-luxury-cars {
@@ -346,8 +346,9 @@ h1,
   background-image: url(images/projects/luxury_cars.png);
   background-size: cover;
   border-radius: 8px;
-  border-bottom:  1px solid black;
+  border-bottom: 1px solid black;
 }
+
 .text-box {
   height: 50%;
   background-color: white;
@@ -394,6 +395,7 @@ h1,
 
 #submit {
   color: black;
+  border: none;
 }
 
 .see-project:hover,
@@ -406,8 +408,6 @@ h1,
   color: #fff;
   background-color: #008552;
 }
-
-
 
 /* about me /////////////////////////// */
 
@@ -557,10 +557,6 @@ label {
 #message::-webkit-scrollbar {
   background-color: red;
   color: red;
-}
-
-#submit {
-  border: none;
 }
 
 #supporting-text {
