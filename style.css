@@ -389,16 +389,25 @@ h1,
   color: white;
   padding: 12px;
   border-radius: 4px;
+  cursor: pointer;
 }
 
-.see-project:hover {
+#submit {
+  color: black;
+}
+
+.see-project:hover,
+#submit:hover {
   color: #ebf0ee;
 }
 
-.see-project:active {
+.see-project:active,
+#submit:active {
   color: #fff;
   background-color: #008552;
 }
+
+
 
 /* about me /////////////////////////// */
 
