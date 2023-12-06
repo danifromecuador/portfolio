@@ -510,11 +510,12 @@ h1,
   width: 90%;
   height: 40%;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 25px;
   line-height: 52px;
   color: #172b4d;
   display: flex;
   align-items: center;
+  text-align: justify;
 }
 
 .form {
