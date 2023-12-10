@@ -11,7 +11,6 @@
 
 body {
   margin: 0 auto;
-  text-align: center;
 }
 
 a {
@@ -297,8 +296,56 @@ h1,
   display: flex;
   flex-direction: column;
   justify-content: end;
-  border: 1px solid #d0d9d4;
+  border: 5px solid #d0d9d4;
   border-radius: 8px;
+}
+
+.img-book-a-concert {
+  height: 50%;
+  background-image: url(https://danifromecuador.github.io/portfolio/images/projects/book_a_concert.jpeg);
+  background-size: cover;
+  border-radius: 8px;
+  border-bottom: 1px solid black;
+}
+
+.img-budget-tracker {
+  height: 50%;
+  background-image: url(https://danifromecuador.github.io/portfolio/images/projects/budget_tracker.png);
+  background-size: cover;
+  border-radius: 8px;
+  border-bottom: 1px solid black;
+}
+
+.img-recipes-app {
+  height: 50%;
+  background-image: url(https://danifromecuador.github.io/portfolio/images/projects/recipes.png);
+  background-size: cover;
+  border-radius: 8px;
+  border-bottom: 1px solid black;
+}
+
+.img-dani-milo-movies {
+  height: 50%;
+  background-image: url(https://danifromecuador.github.io/portfolio/images/projects/movies.png);
+  background-size: cover;
+  border-radius: 8px;
+  border-bottom: 1px solid black;
+}
+
+.img-air-pollution {
+  height: 50%;
+  background-image: url(https://danifromecuador.github.io/portfolio/images/projects/air_pollution.png);
+  background-size: cover;
+  border-radius: 8px;
+  border-bottom: 1px solid black;
+}
+
+.img-luxury-cars {
+  height: 50%;
+  background-image: url(https://danifromecuador.github.io/portfolio/images/projects/luxury_cars.png);
+  background-size: cover;
+  border-radius: 8px;
+  border-bottom: 1px solid black;
 }
 
 .text-box {
@@ -342,13 +389,21 @@ h1,
   color: white;
   padding: 12px;
   border-radius: 4px;
+  cursor: pointer;
 }
 
-.see-project:hover {
+#submit {
+  color: black;
+  border: none;
+}
+
+.see-project:hover,
+#submit:hover {
   color: #ebf0ee;
 }
 
-.see-project:active {
+.see-project:active,
+#submit:active {
   color: #fff;
   background-color: #008552;
 }
@@ -455,11 +510,12 @@ h1,
   width: 90%;
   height: 40%;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 25px;
   line-height: 52px;
   color: #172b4d;
   display: flex;
   align-items: center;
+  text-align: justify;
 }
 
 .form {
@@ -501,10 +557,6 @@ label {
 #message::-webkit-scrollbar {
   background-color: red;
   color: red;
-}
-
-#submit {
-  border: none;
 }
 
 #supporting-text {
@@ -640,7 +692,7 @@ label {
     grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
     grid-template-rows: repeat(2, 1fr);
     column-gap: 24px;
-    padding: 0 134px;
+    padding: 0;
   }
 
   /* about me /////////////////////////// */
