@@ -24,7 +24,7 @@ a {
 }
 
 a:visited {
-  color: none;
+  color: inherit;
 }
 
 ul {
@@ -309,6 +309,7 @@ h1,
 .project-anchor {
   height: 100%;
 }
+
 .img-book-a-concert,
 .img-budget-tracker,
 .img-recipes-app,
@@ -320,7 +321,6 @@ h1,
   border-radius: 8px;
   border-bottom: 1px solid gray;
 }
-
 
 .img-book-a-concert {
   background-image: url(./images/projects/book_a_concert.jpeg);
@@ -473,7 +473,7 @@ h1,
   padding: 20px;
   display: flex;
   justify-content: center;
-  align-items:baseline;
+  align-items: baseline;
   flex-wrap: wrap;
   column-gap: 12px;
 }
