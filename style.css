@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Inter, sans-serif;
-}
 
 body {
   display: flex;
@@ -326,23 +325,43 @@ h1,
 }
 
 .img-budget-tracker {
-  background-image: url(./images/projects/budget_tracker.png);
+  height: 50%;
+  background-image: url(https://danifromecuador.github.io/portfolio/images/projects/budget_tracker.png);
+  background-size: cover;
+  border-radius: 8px;
+  border-bottom: 1px solid black;
 }
 
 .img-recipes-app {
-  background-image: url(./images/projects/recipes.png);
+  height: 50%;
+  background-image: url(https://danifromecuador.github.io/portfolio/images/projects/recipes.png);
+  background-size: cover;
+  border-radius: 8px;
+  border-bottom: 1px solid black;
 }
 
 .img-dani-milo-movies {
-  background-image: url(./images/projects/movies.png);
+  height: 50%;
+  background-image: url(https://danifromecuador.github.io/portfolio/images/projects/movies.png);
+  background-size: cover;
+  border-radius: 8px;
+  border-bottom: 1px solid black;
 }
 
 .img-air-pollution {
-  background-image: url(./images/projects/air_pollution.png);
+  height: 50%;
+  background-image: url(https://danifromecuador.github.io/portfolio/images/projects/air_pollution.png);
+  background-size: cover;
+  border-radius: 8px;
+  border-bottom: 1px solid black;
 }
 
 .img-luxury-cars {
-  background-image: url(./images/projects/luxury_cars.png);
+  height: 50%;
+  background-image: url(https://danifromecuador.github.io/portfolio/images/projects/luxury_cars.png);
+  background-size: cover;
+  border-radius: 8px;
+  border-bottom: 1px solid black;
 }
 
 .text-box {
@@ -463,6 +482,8 @@ h1,
 }
 
 .languages-title {
+  margin-top: -80px;
+  margin-bottom: 20px;
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
@@ -470,13 +491,12 @@ h1,
 }
 
 .about-tags {
-  height: 50%;
-  padding: 20px;
+  margin-top: -90px;
   display: flex;
   justify-content: center;
-  align-items: baseline;
   flex-wrap: wrap;
   column-gap: 12px;
+  row-gap: 12px;
 }
 
 .about-tag {
@@ -485,7 +505,7 @@ h1,
   line-height: 16px;
   color: #36b37e;
   background-color: white;
-  padding: 8px;
+  padding: 12px 12px;
   border-radius: 8px;
 }
 
