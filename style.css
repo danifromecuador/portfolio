@@ -13,7 +13,6 @@ body {
   align-items: center;
 }
 
-
 a {
   text-decoration: none;
 }
@@ -354,7 +353,6 @@ h1,
   justify-content: space-around;
   align-items: center;
   border-radius: 8px;
-
 }
 
 .project-title {
@@ -495,6 +493,7 @@ h1,
 
 .contact-form {
   width: 100%;
+
   /* height: 780px; */
   display: flex;
   flex-direction: column;
@@ -724,7 +723,7 @@ label {
 
   /* CONTACT-FORM /////////////////////// */
 
-  .contact-form {    
+  .contact-form {
     background-image: url(images/backgrounds/desktop-contact.svg);
     flex-direction: row;
     justify-content: center;
