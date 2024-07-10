@@ -307,7 +307,7 @@ h1,
 }
 
 .project-anchor {
-  height: 100%;
+  height: 50%;
 }
 
 .img-book-a-concert,
@@ -354,6 +354,7 @@ h1,
   justify-content: space-around;
   align-items: center;
   border-radius: 8px;
+
 }
 
 .project-title {
@@ -388,6 +389,8 @@ h1,
   padding: 12px;
   border-radius: 4px;
   cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 #submit {
