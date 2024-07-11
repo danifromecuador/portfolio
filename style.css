@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-* { /* initial configuration */
+* {
+  /* initial configuration */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Inter, sans-serif;
+}
 
 body {
   display: flex;
@@ -220,7 +222,9 @@ button {
 }
 
 .hamburger-icon {
-  display: flex; /* this way the icon is centered */
+  display: flex;
+
+  /* this way the icon is centered */
   cursor: pointer;
 }
 
@@ -315,9 +319,9 @@ h1,
 .img-air-pollution,
 .img-luxury-cars {
   height: 100%;
-  background-size: 100% 100%;
   border-radius: 3px;
   border-bottom: 1px solid gray;
+  background-size: 100% 100%;
 }
 
 .img-book-a-concert {
@@ -325,43 +329,23 @@ h1,
 }
 
 .img-budget-tracker {
-  height: 50%;
   background-image: url(https://danifromecuador.github.io/portfolio/images/projects/budget_tracker.png);
-  background-size: cover;
-  border-radius: 8px;
-  border-bottom: 1px solid black;
 }
 
 .img-recipes-app {
-  height: 50%;
   background-image: url(https://danifromecuador.github.io/portfolio/images/projects/recipes.png);
-  background-size: cover;
-  border-radius: 8px;
-  border-bottom: 1px solid black;
 }
 
 .img-dani-milo-movies {
-  height: 50%;
   background-image: url(https://danifromecuador.github.io/portfolio/images/projects/movies.png);
-  background-size: cover;
-  border-radius: 8px;
-  border-bottom: 1px solid black;
 }
 
 .img-air-pollution {
-  height: 50%;
   background-image: url(https://danifromecuador.github.io/portfolio/images/projects/air_pollution.png);
-  background-size: cover;
-  border-radius: 8px;
-  border-bottom: 1px solid black;
 }
 
 .img-luxury-cars {
-  height: 50%;
   background-image: url(https://danifromecuador.github.io/portfolio/images/projects/luxury_cars.png);
-  background-size: cover;
-  border-radius: 8px;
-  border-bottom: 1px solid black;
 }
 
 .text-box {
@@ -711,7 +695,9 @@ label {
   }
 
   .card-work-row {
-    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+    grid-template-columns: repeat(3, 1fr);
+
+    /* 3 columns with equal width */
     grid-template-rows: repeat(2, 1fr);
     column-gap: 24px;
     padding: 0;
@@ -733,7 +719,9 @@ label {
 
   .about-cards {
     padding-top: 50px;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns with equal width */
+    grid-template-columns: repeat(3, 1fr);
+
+    /* 3 columns with equal width */
     column-gap: 24px;
   }
 
@@ -759,12 +747,14 @@ label {
     font-size: 20px;
   }
 
-  /* .form {
+  .form {
     height: 50%;
     width: 55%;
     align-items: flex-start;
-    display: none;
-  } */
+    display: flex;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
 
   #supporting-text {
     display: none;
