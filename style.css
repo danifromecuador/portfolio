@@ -329,23 +329,23 @@ h1,
 }
 
 .img-budget-tracker {
-  background-image: url(https://danifromecuador.github.io/portfolio/images/projects/budget_tracker.png);
+  background-image: url(./images/projects/budget_tracker.png);
 }
 
 .img-recipes-app {
-  background-image: url(https://danifromecuador.github.io/portfolio/images/projects/recipes.png);
+  background-image: url(./images/projects/recipes.png);
 }
 
 .img-dani-milo-movies {
-  background-image: url(https://danifromecuador.github.io/portfolio/images/projects/movies.png);
+  background-image: url(./images/projects/movies.png);
 }
 
 .img-air-pollution {
-  background-image: url(https://danifromecuador.github.io/portfolio/images/projects/air_pollution.png);
+  background-image: url(./images/projects/air_pollution.png);
 }
 
 .img-luxury-cars {
-  background-image: url(https://danifromecuador.github.io/portfolio/images/projects/luxury_cars.png);
+  background-image: url(./images/projects/luxury_cars.png);
 }
 
 .text-box {
@@ -466,7 +466,7 @@ h1,
 }
 
 .languages-title {
-  margin-top: -80px;
+  /* margin-top: -80px; */
   margin-bottom: 20px;
   font-weight: 600;
   font-size: 24px;
@@ -475,12 +475,13 @@ h1,
 }
 
 .about-tags {
-  margin-top: -90px;
+  width: 95%;
+  height: 50%;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   column-gap: 12px;
-  row-gap: 12px;
 }
 
 .about-tag {
