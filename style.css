@@ -330,27 +330,27 @@ h1,
 }
 
 .img-book-a-concert {
-  background-image: url(./images/projects/book_a_concert.jpeg);
+  background-image: url(./images/projects/book_a_concert.jpeg) !important;
 }
 
 .img-budget-tracker {
-  background-image: url(./images/projects/budget_tracker.png);
+  background-image: url(./images/projects/budget_tracker.png) !important;
 }
 
 .img-recipes-app {
-  background-image: url(./images/projects/recipes.png);
+  background-image: url(./images/projects/recipes.png) !important;
 }
 
 .img-dani-milo-movies {
-  background-image: url(./images/projects/movies.png);
+  background-image: url(./images/projects/movies.png) !important;
 }
 
 .img-air-pollution {
-  background-image: url(./images/projects/air_pollution.png);
+  background-image: url(./images/projects/air_pollution.png) !important;
 }
 
 .img-luxury-cars {
-  background-image: url(./images/projects/luxury_cars.png);
+  background-image: url(./images/projects/luxury_cars.png) !important;
 }
 
 .text-box {
