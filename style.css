@@ -8,7 +8,8 @@
   font-family: Inter, sans-serif;
 }
 
-body {
+html, body {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,6 +33,14 @@ button {
 
 .toolbar-desktop {
   display: none;
+}
+
+.main {
+  width: 100%;
+}
+
+.main .recent-works .card-work-row .card {
+  width: 100%;
 }
 
 /* JS DOM manipulation //////////////////////////////////// */
