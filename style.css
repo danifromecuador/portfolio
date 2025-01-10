@@ -305,6 +305,7 @@ h1,
 .card {
   height: 400px;
   width: 100%;
+  max-width: 400px;
   background-color: #ebf0ee;
   display: flex;
   flex-direction: column;
@@ -714,6 +715,7 @@ label {
 
   .card {
     width: 25%;
+    min-width: 300px;
   }
 
   /* about me /////////////////////////// */
