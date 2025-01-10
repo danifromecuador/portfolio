@@ -305,6 +305,7 @@ h1,
 .card {
   height: 400px;
   width: 100%;
+  max-width: 400px;
   background-color: #ebf0ee;
   display: flex;
   flex-direction: column;
@@ -330,27 +331,27 @@ h1,
 }
 
 .img-book-a-concert {
-  background-image: url(./images/projects/book_a_concert.jpeg);
+  background-image: url(./images/projects/book_a_concert.jpeg) !important;
 }
 
 .img-budget-tracker {
-  background-image: url(./images/projects/budget_tracker.png);
+  background-image: url(./images/projects/budget_tracker.png) !important;
 }
 
 .img-recipes-app {
-  background-image: url(./images/projects/recipes.png);
+  background-image: url(./images/projects/recipes.png) !important;
 }
 
 .img-dani-milo-movies {
-  background-image: url(./images/projects/movies.png);
+  background-image: url(./images/projects/movies.png) !important;
 }
 
 .img-air-pollution {
-  background-image: url(./images/projects/air_pollution.png);
+  background-image: url(./images/projects/air_pollution.png) !important;
 }
 
 .img-luxury-cars {
-  background-image: url(./images/projects/luxury_cars.png);
+  background-image: url(./images/projects/luxury_cars.png) !important;
 }
 
 .text-box {
@@ -524,7 +525,7 @@ h1,
   width: 90%;
   height: 40%;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 35px;
   color: #172b4d;
   display: block;
@@ -553,20 +554,11 @@ label {
   line-height: 24px;
 }
 
-.single {
+.single,
+#message {
   padding: 15px 16px;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
-}
-
-#message {
-  padding: 12px;
-  border: 1px solid #36b37e;
-  border-radius: 4px;
-}
-
-#message::placeholder {
-  color: #091e42;
 }
 
 #message::-webkit-scrollbar {
@@ -710,6 +702,11 @@ label {
     grid-template-rows: repeat(2, 1fr);
     column-gap: 24px;
     padding: 0;
+  }
+
+  .card {
+    width: 25%;
+    min-width: 300px;
   }
 
   /* about me /////////////////////////// */
