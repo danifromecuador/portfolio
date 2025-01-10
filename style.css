@@ -554,20 +554,11 @@ label {
   line-height: 24px;
 }
 
-.single {
+.single, 
+#message {
   padding: 15px 16px;
   border: 1px solid #d0d9d4;
   border-radius: 4px;
-}
-
-#message {
-  padding: 12px;
-  border: 1px solid #36b37e;
-  border-radius: 4px;
-}
-
-#message::placeholder {
-  color: #091e42;
 }
 
 #message::-webkit-scrollbar {
