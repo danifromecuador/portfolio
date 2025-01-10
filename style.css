@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 * {
-  /* initial configuration */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Inter, sans-serif;
 }
 
+html,
 body {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,6 +33,10 @@ button {
 
 .toolbar-desktop {
   display: none;
+}
+
+.main {
+  width: 100%;
 }
 
 /* JS DOM manipulation //////////////////////////////////// */
@@ -298,8 +303,8 @@ h1,
 }
 
 .card {
-  height: 475px;
-  width: 400px;
+  height: 400px;
+  width: 100%;
   background-color: #ebf0ee;
   display: flex;
   flex-direction: column;
@@ -309,7 +314,7 @@ h1,
 }
 
 .project-anchor {
-  height: 50%;
+  height: 40%;
 }
 
 .img-book-a-concert,
@@ -349,7 +354,7 @@ h1,
 }
 
 .text-box {
-  height: 50%;
+  height: 60%;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -367,8 +372,11 @@ h1,
 }
 
 .tags {
+  width: 100%;
   display: flex;
-  column-gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .tag {
