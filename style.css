@@ -7,7 +7,8 @@
   font-family: Inter, sans-serif;
 }
 
-html, body {
+html,
+body {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -35,10 +36,6 @@ button {
 }
 
 .main {
-  width: 100%;
-}
-
-.main .recent-works .card-work-row .card {
   width: 100%;
 }
 
