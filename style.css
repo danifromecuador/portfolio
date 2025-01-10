@@ -712,6 +712,10 @@ label {
     padding: 0;
   }
 
+  .card {
+    width: 25%;
+  }
+
   /* about me /////////////////////////// */
 
   .about-me {
